@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFsZXgiLCJpZCI6IjYyMWJiNGI1YTJkOGVjOTg1MGFiNGM2ZSIsImlhdCI6MTY0NTk4NTg1NywiZXhwIjoxNjQ1OTg5NDU3fQ.2LK82jATrLxBre1RbqW-wmP3R6yPq2B4g1F8sa7aokQ
+
+{
+    "author": "David Allen ",
+    "title": "Between the Lines",
+    "url": "https://www.davidco.com/blogs/david/",
+    "likes": "3000"
+}

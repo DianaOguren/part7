@@ -1,0 +1,11 @@
+PUT http://localhost:3003/api/blogs/620be95eb18c9b3cd3056364
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFsZXgiLCJpZCI6IjYyMDM4OTFkYTM4NjJjMGY1YjZjN2RkYiIsImlhdCI6MTY0NTAwNjg0OCwiZXhwIjoxNjQ1MDEwNDQ4fQ.R9P4qwmZw8tGBUTdiSjg9e_garyhzKMhbbILm5F3Kec
+
+{
+  "user": "6203891da3862c0f5b6c7ddb",
+  "likes": 1000,
+  "author": "Tom Hall",
+  "title": "Walt Whitman",
+  "url": "https://blogs.baruch.cuny.edu/poemofthemonth/2013/02/28/song-of-myself-an-excerpt-by-walt-whitman/"
+}

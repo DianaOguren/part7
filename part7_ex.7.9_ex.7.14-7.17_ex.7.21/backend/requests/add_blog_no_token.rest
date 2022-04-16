@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+
+{
+    "author": "David Allen ",
+    "title": "Between the Lines",
+    "url": "https://www.davidco.com/blogs/david/",
+    "likes": "3000"
+}
